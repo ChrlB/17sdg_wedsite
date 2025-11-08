@@ -31,6 +31,7 @@ header{
 
   
 }
+
 #search_area{
   width: 30%;
   height: 100%;
@@ -105,8 +106,6 @@ hr{
   scrollbar-width: thin;
   scrollbar-color:  rgb(0, 0, 0) darkred ;
   border-right: 1px solid rgb(62, 0, 0);
-  
-  
 }
 .sidenav_icon{
   width: 25%;
@@ -165,7 +164,7 @@ width: 10%;
   transition: .15s;
   
 }
-
+/* --------------------------- */
 .container{
   width:100%;
 }
@@ -183,13 +182,13 @@ width: 10%;
   flex-wrap: wrap; */ 
   justify-content: center;
   align-items: center;
-  height: 30vh;
+  height: 20vw;
   background-color: aliceblue;
   font-weight: bold;
   color: aliceblue;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 3vw;
-  
+  /* max-height: 100px; */
 }
 /* h1{ color :rgb(198, 37, 4); } */
 /* p:b{ color :rgb(198, 37, 4) } */
@@ -221,7 +220,6 @@ width: 10%;
   align-items: center;
   padding: 20px 0;
   background-color: rgb(255, 255, 255);
-  
 }
 #sdg_image{
   width: 90%;
@@ -231,11 +229,24 @@ width: 10%;
   background-color: darkred;
 }
 
-#sdg1_topic{
-  background-color: rgb(198, 0, 0);
-}
-  
-  
+#sdg1_topic{ background-color: rgb(198, 0, 0);}
+#sdg2_topic{ background-color: #b59618;}
+#sdg3_topic{ background-color: #33a43e;}
+#sdg4_topic{ background-color: rgb(161, 1, 1);}
+#sdg5_topic{ background-color: rgb(255, 0, 0);}
+#sdg6_topic{ background-color: rgb(67, 174, 210);}
+#sdg7_topic{ background-color: #e9ba00;}
+#sdg8_topic{ background-color: rgb(154, 25, 64)}
+#sdg9_topic{ background-color: rgb(208, 107, 36)}
+#sdg10_topic{ background-color: rgb(164, 65, 95)}
+#sdg11_topic{ background-color: rgb(218, 142, 44)}
+#sdg12_topic{ background-color: rgb(169, 118, 51)}
+#sdg13_topic{ background-color: rgb(53, 115, 53)}
+#sdg14_topic{ background-color: rgb(60, 138, 210)}
+#sdg15_topic{ background-color: rgb(27, 172, 27)}
+#sdg16_topic{ background-color: rgb(41, 94, 144)}
+#sdg17_topic{ background-color: rgb(16, 53, 89)}
+#conclution{ background-color: darkred}
 /* footer{
 
 } */
