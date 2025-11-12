@@ -204,7 +204,7 @@ p b{ color :rgb(198, 37, 4) }
 .content_image{
   margin: 2% 0;
   border-radius: 2%;  
-  border:1px solid darkred;
+  border:0.2vw solid darkred;
 }
 .separated{
   width: 100%;
@@ -224,10 +224,12 @@ p b{ color :rgb(198, 37, 4) }
 #poverty_image2{ width: 43%; }
 #poverty_image3{ width: 55%;  }
 #sdg2_image1{ width: 100%;}
-
 #sdg2_image2{width: 40%;}
 #sdg3_image1{ width: 30%;}
-
+#sdg10_image1{ width: 40%; margin-right: 2%;}
+#sdg11_image1{ width: 30%; margin-left: 2%;}
+#sdg12_image1{ width: 42%; margin-right: 2%;}
+#sdg12_image2{ width: 56%;}
 
 #intro_container{
   align-items: center;
