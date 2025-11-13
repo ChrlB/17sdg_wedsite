@@ -38,16 +38,40 @@ header{
 }
 #searchbox{
   align-items: center;
-  height: 100%;
+  height: 98%;
   font-size: 2vw;
   /* border-bottom-left-radius: 70%;
   border-top-left-radius:25%; */
-  border: 1.5px solid darkred;
-  padding: 1%;
+  border: 0.2vw solid darkred;
+  padding-left:  2%;
   margin-right: 0;
   width: 80%;
   min-width: 100px;
+  background-color:aliceblue;
+  color: darkred;
+  border-radius:4%;
+  font-weight: bold;
+
   /* border-right: 3px solid darkred; */
+}
+#searchBtn{
+  color: aliceblue;
+  background-color: darkred;
+  border: 0.5vw solid darkred;
+  border-radius:  4%;
+  height: 100%;
+  width: 20%;
+  margin-left: 0.5%;
+  font-size: 1.5vw;
+}
+#searchBtn:hover{
+  /* background-color: rgb(115, 115, 115);
+  border-color: rgb(115, 115, 115); */
+  background-color: red;
+  border-color: red;
+}
+#searchBtn_icon{
+  width: 30%;
 }
 #listlighticon{
   width:  80%;
