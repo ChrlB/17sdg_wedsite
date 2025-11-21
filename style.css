@@ -59,7 +59,7 @@ header{
   background-color: darkred;
   border: 0.5vw solid darkred;
   border-radius:  4%;
-  height: 100%;
+  /* height: 100%; */
   width: 20%;
   margin-left: 0.5%;
   font-size: 1.5vw;
@@ -88,9 +88,31 @@ header{
   padding: 2px;
 }
 #sdglogo{
+  /* margin: 1%; */
+  width:65%;
+  padding: 35%;
+  border-radius: 50%;
+  animation: spin_clockwise 5s linear infinite;
+}
+
+#outersdglogo{
+  background-image: url(sdglogo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 1%;
   width:5%;
+  height: 5vw;
   border-radius: 50%;
+  animation: spin_counterclockwise 5s linear infinite;
+}
+#outersdglogo:hover{
+  animation: spin_counterclockwise 0.5s linear infinite;
+}
+#sdglogo:hover{
+  animation: spin_clockwise 0.5s linear infinite;
 }
 .separated{
   width: 100%;

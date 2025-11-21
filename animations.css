@@ -1,0 +1,10 @@
+@keyframes spin_clockwise{
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+  /* 100%{transform: rotate(0deg);} */
+}
+@keyframes spin_counterclockwise{
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(-360deg); }
+  /* 100%{transform: rotate(0deg);} */
+}
