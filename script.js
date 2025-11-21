@@ -9,7 +9,7 @@ let topics = [
   ["introduction","what is sdgs","introduction_topic"],
   ["sdg1","No Poverty","sdg1_topic"],
   ["sdg2","Zero Hunger","sdg2_topic"],
-  ["sdg3","Good Health and Well-Being","sdg3_topic"],
+  ["sdg3","Good Health and Well Being","sdg3_topic"],
   ["sdg4","Quality Education","sdg4_topic"],
   ["sdg5","Gender Equality","sdg5_topic"],
   ["sdg6","Clean Water and Sanitation","sdg6_topic"],
@@ -44,22 +44,24 @@ sidenav.addEventListener("mouseleave", ()=>{//alert("in")
 
 //   }
 // });
-searchBtn.addEventListener("click", async() => {
-  let searching = new RegExp(searchbar.value,"i");
-  
-  if(searching == null || searching == "") return;
+searchBtn.addEventListener("click", () => {
+  let searching = new RegExp(searchbar.value.trim(),"i");
+  let match_found = false;
+  if(searching == null || searching == '/(?:)/i' || searching == "") return;
   for(let i = 0; i < topics.length; i++){
-    for(let j = 0; j < 2; j++){
+    for(let j = 0; j < 2 && match_found == false; j++){
       
       if(topics[i][j].search(searching) >=0) {
-        console.log(topics[i][j].search(searching) >= 0 );
+        match_found = true;
+        console.log("\'"+ searching+"\'");
+        console.log(topics[i][j].search(searching) >= 0  );
         console.log(topics[i][j] +" "+ i +" "+ j + topics[i][2]);
         scrt(topics[i][2]);
-        i = topics.length
         break;
       }
     }
   }
+  if(!match_found) alert("no result")
   // scrt(topics[13][2]);
 })
 
